@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+  <script src="windowSize/js/windowSize.js" ></script>
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+<div>
+  <div class="header">
+    <h1>Browser Window Size Display</h1>
+  </div>
+
+  <div id="wh" class="window_size">
+        <!-- width and height goes here-->
+  </div>
+
+  <div id="width"></div>
+    <div id="height"></div>
+    <div id="unit-selector">
+        <label for="unit">Select Unit:</label>
+        <select id="unit" onchange="updateBackgroundColor()">
+            <option value="px" selected>pixels</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="%">percentage</option>
+        </select>
+    </div>
+
+</div>  
+
+</body>
+</html>
